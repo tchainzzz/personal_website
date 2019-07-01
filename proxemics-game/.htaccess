@@ -1,0 +1,6 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /~tchang97/proxemics-game
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.(jpg|png|json)$
+RewriteRule ^ index.html [QSA,L]

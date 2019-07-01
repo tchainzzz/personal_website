@@ -1,0 +1,243 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Trenton Chang</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <!--Scripts: -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="smoothscroll.js"></script>
+        <script src="contactvalidator.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="slideshow.js"></script>
+       
+        
+        <!--Fonts: -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    </head>
+    <body>
+    	
+    	
+    	
+ 		<div id = "container">
+ 			
+    		<div class = "title">
+		        <h1 id="top">Hello, World.</h1>
+	        </div>
+	        
+	        <div class = "bar">
+	        	<ul class = "nav">
+		        		<li><a href="#about">About Me</a></li>
+		        		<li><a href="#coding">Coding</a></li>
+		        		<li><a href="#writing">Writing</a></li>
+		        		<li><a href="#music">Music</a></li>    		
+		        		<li><a href="#contact">Contact</a></li>
+	        	</ul>
+	        </div>
+	        
+	        <div class = "main">
+		        <div class = "slideshow-container">  
+		        	<div class="slide">
+		        		<img src="img/logan.jpg">
+		        	</div>		
+		        	<div class="slide">
+		        		<img src="img/stanford.jpg">
+		        	</div>		 	
+		        	<div class="slide">
+		        		<img src="img/tchang.jpg">
+		        	</div>		
+		        	
+					
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					<div class="dots" style="text-align:center">
+ 						 <span class="dot" onclick="currentSlide(1)"></span> 
+ 						 <span class="dot" onclick="currentSlide(2)"></span> 
+  						 <span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+		        </div>
+		         
+		        <div class = "description">
+		            <p> My name is Trenton Chang. I'm a junior in the American Studies program at Stanford University, and a prospective
+                        C.S. Master's Student. Welcome to my page!</p>    
+		        </div>
+	        </div>
+	        
+	    
+	        
+	       
+	        
+	        <div class = "section">
+		        <h2 id="section_about">About Me</h2> 
+		        <div class = "section-description-1">
+		        	<div class="image-left">
+		        		<img src="img/headshot.png" alt="Trenton in front of Christiansborg Palace, Copenhagen, Denmark">
+		        	</div>
+		        	<div class="text-right">
+		        		<p>
+				         I am originally from Logan, Utah. I've been at Stanford since 2016 as an undergrad. Outside of class, I like 	
+			        	</p>
+		        	</div>
+			        
+		        </div>
+	       	</div>
+	        <div class = "section">
+		        <h2 id="coding">Technical Projects</h2> 
+		        <div class = "section-description-2">
+		        	<p>
+		        		I come from a non-traditional technical background. I am a B.A. candidate in American Studies, and I intend to apply for the M.S. co-terminal program in Computer Science as well. I've been
+		        		exposed to many technologies in the past. I am familiar with Java, especially in the context of Android development, as well 
+		        		as C++ and JavaScript. I have experience working with and figuring out various APIs as well, including Gmail and Google Drive
+		        		technologies and various email marketing tools. In addition, I'm fairly well-versed in HTML and CSS — everything you see on 
+		        		this page right now was made from scratch in HTML5 and CSS because I truly enjoy the flexibility it allows.
+						<br><br>
+						I am largely self taught. I learned jQuery for a work project last summer: building the email marketing system for <a href=https://brain-mind.org>BrainMind</a>, 
+						a neuroscience non-profit devoted to creating an ecosystem of academics, venture capitalists, and industry figures to champion
+						responsible and conscientious neuro-innovation. We even managed to hit an impressive 40% CTR. A month later, I was finishing a class project,
+						for a communication studies course, and realized I could
+						make a cool game that taught some of the concepts in the class while teaching myself React — and <a href="/~tchang97/proxemics-game">Don't Be Awkward</a>
+						, a game about proxemics, was born.
+						<br><br>
+		        	    I am currently developing a digitized version of CBT (cognitive behavioral therapy) thought records that I call Headway. It 
+		        	    was a good way for me to learn Android development by building a simple database-backed app while creating someting with the
+						potential to help some of the millions of Americans who suffer from a psychiatric illness. It started off purely as a passion project:
+						I wanted to build something for my personal use based on the mental wellness tools that I had found most effective for me. CBT was
+						well-structured and understandable, so it was a natural candidate for a technological tool. Within the project, I am implementing
+		        	    analytics to help users identify common emotional states and thoughts to foster emotional mindfulness and increase self-awareness
+						of one's mental health, a novel method of enhancing traditional CBT via technology. Again, health is not the absence of disease — 
+						I truly believe any one can benefit from a little more emotional mindfulness here and there. Demoes will be provided upon request!
+		        	   
+		        		<br><br>Here's some other stuff I've been working on lately:
+		        	</p>
+		        </div>
+		        <div class="clear"></div>
+		        <h3 class = "linkhead">Samples</h3>
+		        <div class="clear"></div>
+		        <div class="link-block">
+		        	<div class="card">
+		        		<div class="card-image"><img src="img/chess.png" alt="Screenshot of Chess Program"></div>
+		        		<div class="card-text">
+		        			<h4><a href="https://github.com/tchainzzz/Chess"><b>BOTVinnik Chess Engine</b></a></h4>
+		        		</div>
+		        	</div>
+		        	<div class="card">
+		        		<div class="card-image"><img src="img/sobel.png" alt="Screenshot of Edge Detection Image Processing Output"></div>
+		        		<div class="card-text">
+		        			<h4><a href="https://github.com/tchainzzz/cannyedgedetector"><b>Edge Detection (Canny and Sobel algorithms)</b></a></h4>
+		        		</div>
+		        	</div>
+		        	<div class="card">
+		        		<div class="card-image"><img src="test.png" alt="Placeholder"></div>
+		        		<div class="card-text">
+		        			<h4><a href="https://github.com/tchainzzz/Tweet-Generator/tree/master/src/main"><b>Random Tweet Generator</b></a></h4>
+		        		</div>
+		        	</div>
+		       
+		        </div>
+	       	</div>
+	       	
+	        <div class = "section">
+		        <h2 id="section_writing">Writing</h2>
+		        <div class = "section-description-2">
+		        	<p>
+		        		I'm a writer. I've always found it natural to communicate my thoughts in writing, whether I was working on a more serious article,
+		        		writing stories, or composing poetry. I wanted to further that interest more in college, and so I joined the Stanford Daily, the
+		        		university's student-run newspaper, in hopes of learning from my peers and improving my own craft. Due to my deep interest
+		        		in electronic music and songwriting, I joined the music beat, where I was soon traveling to local concerts to cover large electronic
+		        		music acts from Zedd to Porter Robinson. 
+		        		
+		        		<br><br>I have some experience writing as well outside the world of music. I wrote a blog post for my fellowship program in Washington D.C. the
+		        		summer after my freshman year about an experience we had meeting with a lobbyist for a major telecommunications company. In addition,
+		        		as editor-in-chief of my high school newspaper, I covered a plethora of topics from Asian-American identity, personal narratives, and
+		        		cultural satire.
+	        		</p>
+		        </div>
+		        <div class="clear"></div>
+		        <h3 class="linkhead">Samples</h3>
+		        <div class="clear"></div>
+		        <div class="link-block">
+		        <ul>
+		        	<li><a href="http://www.stanforddaily.com/2017/05/24/zedd-dazzles-stanford-at-frost/">Zedd dazzles Stanford at Frost Music Festival</a></li>
+		        	<li><a href="http://www.stanforddaily.com/2017/02/24/house/">Electronic dance music: Let there be house</a></li>
+		        	<li><a href="http://www.ilfnational.org/into-the-lobbyists-world-technology-and-innovation-workshop-provides-insight-for-fellows/">Into the Lobbyist’s World: Technology and Innovation Workshop Provides Insight for Fellows</a></li>
+		        </ul>
+		        </div>
+	        </div>
+	        
+	        <div class = "section">
+		        <h2 id="music">Music</h2> 
+		        <div class = "section-description-1">
+					<p>
+						Music was certainly my first love. As a pianist for 15 years, I can't remember a time before I was sitting at the
+						ivory keys. It was the first creative way that I discovered to express myself, and so even as a child, I grew to 
+						enjoy profoundly the timeless moments of music I spent at the piano. I briefly even considered a professional career
+						in the field — but I was always searching for something new, and my interest turned to other things.
+						
+						<br><br>Music is still certainly a part of my life. Below you will find two electronic music tracks that I produced personally
+						from scratch. In addition, I am currently a taking private jazz piano lessons at Stanford University on a scholarship. 
+						It's quite a refreshing experience, to go back to the instrument that I have known for the better part of my life as a 
+						beginner.
+					</p>
+		        </div>
+		        <div class="clear"></div>
+		        <h3 class="linkhead">Samples</h3>
+		        <div class="clear"></div>
+		        <div class="link-block">
+		        <ul>
+		        	<li><a href="https://clyp.it/fnlk3tth?token=1726b551f60cc1ef78a943814c88dea9">Track 01</a></li>
+		        	<li><a href="https://soundcloud.com/parallelninths/parallel-ninths-lightweight-wip">Track 02</a></li>
+		        </ul>
+		        </div>
+		        <!--<div class="return"><a href="#top">Return</a></div>-->
+	       	</div>
+	       	
+	       
+	       	<div class = "section">
+		        <h2 id="contact">Contact</h2> 
+		        
+		        	<!--A contact form for the future, when I have time to learn how to do that-->
+		        
+			        <div class = "form"> 
+				        <form method="post" name="contact_form" action="contact-form-handler.php">
+							<div class="form-line">
+						    <label for="name">Your Name:</label>
+							<input type="text" name="name" placeholder="Name..." required>
+							</div>
+							<div class="clear"></div>
+							<div class="form-line">
+									<label for="name">Subject:</label>
+									<input type="text" name="subject" placeholder="Subject" required>
+									</div>
+									<div class="clear"></div>
+							<div class="form-line">
+
+						    <label for="email">Email Address:</label>
+							<input type="text" name="email" placeholder="example@domain.com" required>
+							</div>
+							<div class="clear"></div>
+							
+							<div class="form-line">
+
+							<label for="message">Message:</label>
+							<textarea name="message" rows="10" required></textarea>
+							</div>
+							<div class="clear"></div>
+						    <input type="submit" value="Submit">
+						</form>
+					</div>
+
+	       	
+	       	<div class = "footer" >
+	       		
+	       	    <p>Web design by Trenton Chang, 2018</p>
+					
+		        
+	       	</div>
+	       	<div class="return"><a href="#top">Return To Top</a></div>
+	    </div>    
+    </body>
+</html>
